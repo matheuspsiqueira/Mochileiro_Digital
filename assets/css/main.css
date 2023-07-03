@@ -19,6 +19,11 @@ a:hover {
   text-decoration: none;
 }
 
+.link:hover{
+  color: rgb(55, 0, 255);
+  text-decoration: underline;
+}
+
 .link-visual{
   color: blue;
 }
@@ -26,7 +31,28 @@ a:hover {
 .texto-post{
   font-size: 18px;
   font-family: Calibri;
+  text-align: justify;
 }
+
+.rede-social{
+  font-size: 18px;
+  font-family: Calibri;
+  padding-left: 65px;
+
+}
+
+@media (max-width: 700px){
+  .rede-social{
+    padding-left: 20px;
+  }
+
+  .img-sobre{
+    max-width: 330px;
+    max-height: 300px;
+    
+  }
+}
+
 
 h1,
 h2,
@@ -39,6 +65,11 @@ h6 {
 
 #main {
   margin-top: 90px;
+}
+
+.img-sobre{
+  width: 580px;
+  height: 500px;
 }
 
 /*--------------------------------------------------------------
